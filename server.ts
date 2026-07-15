@@ -151,7 +151,9 @@ app.post("/api/botanist-chat", async (req, res) => {
 
 // Vite Middleware & Static Serving Setup
 async function startServer() {
-  if (process.env.NODE_ENV !== "production") {
+  const isProd = process.env.NODE_ENV !== "development";
+
+  if (!isProd) {
     console.log("Starting server in DEVELOPMENT mode...");
     const vite = await createViteServer({
       server: { middlewareMode: true },
