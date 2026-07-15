@@ -5,6 +5,8 @@ import BlogCard from "./components/BlogCard";
 import BlogPostView from "./components/BlogPostView";
 import Atelier from "./components/Atelier";
 import CareAdvisor from "./components/CareAdvisor";
+import floralHero from "./assets/images/floral_hero_1784124017082.jpg";
+import botanicalPeony from "./assets/images/botanical_peony_1784124044203.jpg";
 import {
   BookOpen,
   Sparkles,
@@ -176,7 +178,7 @@ export default function App() {
                     {/* Background image */}
                     <div className="absolute inset-0 z-0">
                       <img
-                        src="/src/assets/images/floral_hero_1784124017082.jpg"
+                        src={floralHero}
                         alt="Floral chronicles background"
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover opacity-25"
@@ -271,7 +273,7 @@ export default function App() {
                     <div className="bg-[#121412] border border-[#2a2a24] rounded-3xl p-8 sm:p-12 md:p-16 text-center max-w-4xl mx-auto space-y-6 relative overflow-hidden">
                       <div className="absolute inset-0 opacity-10">
                         <img
-                          src="/src/assets/images/botanical_peony_1784124044203.jpg"
+                          src={botanicalPeony}
                           alt="Delicate background details"
                           referrerPolicy="no-referrer"
                           className="w-full h-full object-cover filter invert grayscale"

@@ -1,4 +1,7 @@
 import { BlogPost } from "./types";
+import floriographyArt from "./assets/images/floriography_art_1784124030450.jpg";
+import botanicalPeony from "./assets/images/botanical_peony_1784124044203.jpg";
+import gardenMoss from "./assets/images/garden_moss_1784124056279.jpg";
 
 export const FLOWER_DICTIONARY = [
   {
@@ -69,7 +72,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Whispers of the Petals: Deciphering Victorian Floriography",
     excerpt: "Step into the silent, secret world of 19th-century secret messages, where a single blossom could seal a marriage proposal or deliver a cold rejection.",
     category: "Floriography",
-    image: "/src/assets/images/floriography_art_1784124030450.jpg",
+    image: floriographyArt,
     date: "July 12, 2026",
     readingTime: "5 min read",
     tags: ["Victorian History", "Flower Codes", "Romance"],
@@ -110,7 +113,7 @@ In our modern world, where digital noise drowns quiet affection, returning to th
     title: "The Art of Botanical Illustration: Capturing Peonies in Crimson",
     excerpt: "Explore the precise, patient craft of botanical watercolors, and how scientific observation merges with painterly expression.",
     category: "Floral Artistry",
-    image: "/src/assets/images/botanical_peony_1784124044203.jpg",
+    image: botanicalPeony,
     date: "July 8, 2026",
     readingTime: "7 min read",
     tags: ["Watercolor", "Botanical Art", "Peonies"],
@@ -150,7 +153,7 @@ Whether you are a professional researcher or an amateur keeper of a garden journ
     title: "Moss, Mist, and Mycelium: Cultivating a Woodland Shade Sanctuary",
     excerpt: "Unlock the damp secrets of shade gardening to transform gloomy, sun-starved yards into glowing, fern-lined moss paradises.",
     category: "Garden Craft",
-    image: "/src/assets/images/garden_moss_1784124056279.jpg",
+    image: gardenMoss,
     date: "June 28, 2026",
     readingTime: "6 min read",
     tags: ["Shade Garden", "Moss Cultivation", "Permaculture"],
