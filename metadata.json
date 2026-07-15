@@ -1,0 +1,6 @@
+{
+  "name": "Flower Blog & Floriography Atelier",
+  "description": "An elegant, immersive botanical blog featuring curated floriography (the language of flowers) articles, and an AI-powered Floriography Atelier that translates your feelings into custom floral bouquets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

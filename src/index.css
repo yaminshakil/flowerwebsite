@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Base style adjustments for Sophisticated Dark Theme */
+body {
+  font-family: var(--font-sans);
+  background-color: #0c0d0c; /* High quality matte black */
+  color: #f5f5f0; /* Alabaster off-white */
+}
+
+/* Custom dark theme helper utility overrides */
+.border-gold-muted {
+  border-color: #2a2a24;
+}
+
+.text-gold-accent {
+  color: #d4af37;
+}
+
+.text-gold-muted {
+  color: #a39a7a;
+}
+
+.bg-gold-accent {
+  background-color: #d4af37;
+}
+
+.bg-dark-paper {
+  background-color: #121412;
+}
+
+.bg-dark-base {
+  background-color: #0c0d0c;
+}
+
+.bg-rose-850 {
+  background-color: #d4af37; /* Re-mapped to theme gold button */
+}
+
+.hover\:bg-rose-900:hover {
+  background-color: #bfa030; /* Re-mapped to darker gold hover */
+}
+
+.text-stone-750 {
+  color: #a39a7a;
+}
+
